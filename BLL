@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bangkok Beyond The Classics</title>
+<style>
+  body {
+    background: #FAFAF5; /* ペールホワイト */
+    color: #333;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  header, section, footer {
+    padding: 16px;
+  }
+  h1, h2, h3, h4 {
+    color: #1B4D3E; /* ディープグリーン */
+    margin-top: 0;
+  }
+  h1 {
+    font-size: 1.8em; 
+    letter-spacing: 0.05em;
+  }
+  h2 {
+    font-size: 1.4em;
+    border-left: 4px solid #8E2430; /* バーガンディ */
+    padding-left: 8px;
+    margin-bottom: 0.5em;
+  }
+  h3 {
+    font-size: 1.2em;
+    margin-bottom: 0.3em;
+  }
+  p, ul, li {
+    font-size: 0.95em;
+    line-height: 1.6em;
+  }
+  a {
+    color: #8E2430;
+    text-decoration: none;
+    word-break: break-all;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+  .spot-heading {
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+  }
+  .spot-heading span.icon {
+    margin-right: 8px;
+  }
+  .img-container {
+    margin: 12px 0;
+  }
+  .img-container img {
+    width: 100%;
+    border-radius: 4px;
+  }
+  .schedule-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 24px;
+    margin-top: 12px;
+  }
+  .schedule-table th, .schedule-table td {
+    border-bottom: 1px solid #ccc;
+    padding: 8px;
+  }
+  footer {
+    font-size: 0.9em;
+    color: #555;
+  }
+  .page {
+    border-bottom: 8px solid #1B4D3E;
+    margin-bottom: 16px;
+  }
+  @media (max-width: 600px) {
+    h1 { font-size: 1.6em; }
+    h2 { font-size: 1.3em; }
+    h3 { font-size: 1.1em; }
+    .schedule-table th, .schedule-table td {
+      font-size: 0.9em;
+    }
+  }
+</style>
+</head>
+<body>
+
+<!-- PAGE 1: COVER -->
+<section class="page" id="page1">
+  <header>
+    <h1>BANGKOK BEYOND THE CLASSICS</h1>
+    <p>～ハイセンスなご夫婦のための4日間モデルコース～</p>
+  </header>
+  <div class="img-container">
+    <img src="https://source.unsplash.com/featured/?bangkok,city" alt="Bangkok City View">
+  </div>
+  <p>3度目のバンコク、既に定番寺院観光は制覇済みのハイセンスなカップルへ捧ぐ、新たな都市の愉しみ方。アート、音楽、ファッション、そして美食。スノッブな趣味嗜好を満たす、ちょっと通好みの4日間を提案します。</p>
+</section>
+
+<!-- PAGE 2: PERSONA & HOTEL -->
+<section class="page" id="page2">
+  <h2>二人のペルソナ</h2>
+  <p>44歳男性＆38歳女性、渋谷区在住、外資系コンサル会社エグゼクティブ層。年収合計4,000万。  
+  趣味はアート、建築、音楽(テクノ・ハウス・ディスコ・ヒップホップ・エレクトロ)、ファッション(ジルサンダー、マルジェラ、マルニ、sacai、オーラリー、ミノトール)、そして犬好き。</p>
+
+  <div class="img-container">
+    <img src="https://source.unsplash.com/featured/?couple,city" alt="Couple in the city">
+  </div>
+
+  <h2>宿泊先</h2>
+  <h3>The Westin Grande Sukhumvit, Bangkok</h3>
+  <p><a href="https://www.marriott.com/ja/hotels/bkkwi-the-westin-grande-sukhumvit-bangkok/overview/">公式サイト</a><br>
+  <a href="https://goo.gl/maps/QUhwxqAE1M6LtG9z9">Google Maps</a><br>
+  スクンビット中心部で洗練と安定感を備えた5つ星ホテル。</p>
+</section>
+
+<!-- PAGE 3: SCHEDULE OVERVIEW -->
+<section class="page" id="page3">
+  <h2>4日間モデルコース概要</h2>
+  <p>ワットポーやワットアルンなど定番は既訪済み。今回はさらなる深みへ。全てタクシー移動を想定。</p>
+  <table class="schedule-table">
+    <tr><th>日付</th><th>スケジュール概要</th></tr>
+    <tr><td>1日目(早朝)</td><td>AM: スワンナプーム空港5:30着 → ホテルチェックイン → モダンカフェで朝食 → MOCAで現代美術鑑賞 → 夜はモダン・タイレストラン＆ルーフトップバー</td></tr>
+    <tr><td>2日目</td><td>AM: BACCでアート巡り → Gaysorn Villageでハイエンドショッピング → Papaya Vintage Market → 夜はエレクトロ系クラブ(Beam)</td></tr>
+    <tr><td>3日目</td><td>AM: チャルーンクルン地区散策＆ギャラリー → 犬カフェ → 夜はSühringで美食＆Rabbit Holeバーへ</td></tr>
+    <tr><td>4日目</td><td>AM: ミニマルカフェで朝食 → 正午パタヤへ移動</td></tr>
+  </table>
+</section>
+
+<!-- PAGE 4: DAY 1 -->
+<section class="page" id="page4">
+  <h2>DAY 1: 現代アートと洗練されたタイキュイジーヌ</h2>
+  
+  <div class="spot-heading"><span class="icon">☕️</span>朝食：% Arabica at EmQuartier</div>
+  <p><a href="https://arabica.coffee/">公式サイト</a> | <a href="https://goo.gl/maps/4LtJZq8jfNcpnZHy9">Google Maps</a></p>
+  <div class="img-container">
+    <img src="https://source.unsplash.com/featured/?coffee,minimal" alt="Minimal Coffee Shop">
+  </div>
+  <p>真っ白な内装で豆の香りに包まれる朝、時差ぼけの身体を柔らかく覚醒させる。</p>
+
+  <div class="spot-heading"><span class="icon">🖼</span>MOCA Bangkok</div>
+  <p><a href="http://www.mocabangkok.com/">公式サイト</a> | <a href="https://goo.gl/maps/63nBzhBq7qzYHL6cA">Google Maps</a></p>
+  <div class="img-container">
+    <img src="https://source.unsplash.com/featured/?art,museum" alt="Contemporary Art Museum">
+  </div>
+  <p>鮮烈な現代アートの渦へダイブ。定番観光に飽きた彼らに新鮮な刺激を。</p>
+
+  <div class="spot-heading"><span class="icon">🍽</span>ディナー：80/20 Bangkok</div>
+  <p><a href="https://www.8020bkk.com/">公式サイト</a> | <a href="https://goo.gl/maps/BeSH3ULGqZNAiB448">Google Maps</a></p>
+  <div class="img-container">
+    <img src="https://source.unsplash.com/featured/?fine dining,restaurant" alt="Fine Dining Experience">
+  </div>
+  <p>伝統と新しさが融合したクリエイティブ・タイ料理で舌鼓。</p>
+
+  <div class="spot-heading"><span class="icon">🍸</span>Above Eleven</div>
+  <p><a href="http://www.aboveeleven.com/">公式サイト</a> | <a href="https://goo.gl/maps/MPN9fX5k6sikFKpz8">Google Maps</a></p>
+  <p>天空のバーで、バンコクの夜景とともに初日の締めくくりを。</p>
+</section>
+
+<!-- PAGE 5: DAY 2 -->
+<section class="page" id="page5">
+  <h2>DAY 2: アート＆デザイン、そして音のエッジへ</h2>
+
+  <div class="spot-heading"><span class="icon">🖼</span>BACC</div>
+  <p><a href="https://www.bacc.or.th/">公式サイト</a> | <a href="https://goo.gl/maps/7uCJpRTWNW5gH9g68">Google Maps</a></p>
+  <div class="img-container">
+    <img src="https://source.unsplash.com/featured/?gallery,exhibition" alt="Art Gallery BACC">
+  </div>
+  <p>ローカルから国際的展示まで、感性を刺激するアートセンター。</p>
+
+  <div class="spot-heading">🛍Gaysorn Village</div>
+  <p><a href="https://www.gaysornvillage.com/">公式サイト</a> | <a href="https://goo.gl/maps/D9piKnwuXaJm8w7a9">Google Maps</a></p>
+  <div class="img-container">
+    <img src="https://source.unsplash.com/featured/?luxury,shopping" alt="Luxury Shopping District">
+  </div>
+  <p>最先端ファッションが集結するショッピングエリアで上質を手に入れる。</p>
+
+  <div class="spot-heading"><span class="icon">🍽</span>Kua Kling Pak Sod</div>
+  <p><a href="https://www.facebook.com/KuaKlingPaksod/">公式FB</a> | <a href="https://goo.gl/maps/R6xvarFa2NjtKMXk7">Google Maps</a></p>
+  <p>スパイシーな南部タイ料理で午後への活力を注入。</p>
+
+  <div class="spot-heading">📺Papaya Vintage Market</div>
+  <p><a href="https://www.facebook.com/papaya.vintagestore/">公式FB</a> | <a href="https://goo.gl/maps/NbZRTNng7pZw1fcn6">Google Maps</a></p>
+  <div class="img-container">
+    <img src="https://source.unsplash.com/featured/?vintage,furniture" alt="Vintage Furniture Shop">
+  </div>
+  <p>無数のヴィンテージ家具が広がる異空間で宝探し体験。</p>
+
+  <div class="spot-heading"><span class="icon">🎧</span>BEAM Nightclub (Thonglor)</div>
+  <p><a href="https://www.beamclub.com/">公式サイト</a> | <a href="https://goo.gl/maps/o3nCLu2K13bXBMZh8">Google Maps</a></p>
+  <p>洗練されたエレクトロ・ミュージックが流れる夜の社交場へ。</p>
+</section>
+
+<!-- PAGE 6: DAY 3 -->
+<section class="page" id="page6">
+  <h2>DAY 3: クリエイティブな街歩き＆犬たちとの戯れ、そして美食</h2>
+
+  <div class="spot-heading"><span class="icon">🖼</span>ATTA Gallery (Charoenkrung)</div>
+  <p><a href="https://attagallery.com/">公式サイト</a> | <a href="https://goo.gl/maps/9nZ3Q1GmQNGy2Wjp6">Google Maps</a></p>
+  <div class="img-container">
+    <img src="https://source.unsplash.com/featured/?contemporary,jewelry" alt="Contemporary Art Jewelry">
+  </div>
+  <p>アートジュエリーが放つ新感覚の美に触れる。</p>
+
+  <div class="spot-heading"><span class="icon">🍽</span>ランチ：Err Urban Rustic Thai</div>
+  <p><a href="https://www.errbkk.com/">公式サイト</a> | <a href="https://goo.gl/maps/xCUDiMTXLtEv2LQ66">Google Maps</a></p>
+  <p>素朴なタイ料理をモダンにアップデートした心温まる一皿。</p>
+
+  <div class="spot-heading"><span class="icon">🐾</span>Corgi In The Garden</div>
+  <p><a href="https://www.facebook.com/corgiinthegarden/">公式FB</a> | <a href="https://goo.gl/maps/3Ps7BnocdEcPyRQS6">Google Maps</a></p>
+  <div class="img-container">
+    <img src="https://source.unsplash.com/featured/?corgi,cafe" alt="Corgi Cafe">
+  </div>
+  <p>コーギーたちとの癒し時間で、疲れた心もリフレッシュ。</p>
+
+  <div class="spot-heading"><span class="icon">🍽</span>Sühring (2 Michelin Star)</div>
+  <p><a href="https://restaurantsuhring.com/">公式サイト</a> | <a href="https://goo.gl/maps/8x5TjpAeFo8NYeLm9">Google Maps</a></p>
+  <p>洗練されたドイツ料理が特別な夜を彩る。</p>
+
+  <div class="spot-heading"><span class="icon">🍸</span>Rabbit Hole</div>
+  <p><a href="https://www.facebook.com/rabbitholebkk/">公式FB</a> | <a href="https://goo.gl/maps/av4fvTia9QamvaVy8">Google Maps</a></p>
+  <p>隠れ家風バーでカクテル片手に語り合う大人の夜。</p>
+</section>
+
+<!-- PAGE 7: DAY 4 -->
+<section class="page" id="page7">
+  <h2>DAY 4: 名残惜しいバンコクの朝からパタヤへ</h2>
+
+  <div class="spot-heading"><span class="icon">☕️</span>Rocket Coffeebar Sukhumvit 49</div>
+  <p><a href="https://www.facebook.com/RocketCoffeeBarBKK/">公式FB</a> | <a href="https://goo.gl/maps/ZsnWhJqvxmY5M5iL8">Google Maps</a></p>
+  <div class="img-container">
+    <img src="https://source.unsplash.com/featured/?scandinavian,cafe" alt="Scandinavian style cafe">
+  </div>
+  <p>北欧風の洗練された空間で最後の朝を楽しみ、正午にパタヤへ移動。</p>
+</section>
+
+<!-- PAGE 8: REFERENCES -->
+<section class="page" id="page8">
+  <h2>参考リンク集</h2>
+  <ul>
+    <li>スワンナプーム空港: <a href="https://www.suvarnabhumiairport.com/">https://www.suvarnabhumiairport.com/</a></li>
+    <li>バンコク観光情報(英語): <a href="https://www.tourismthailand.org/Destinations/Provinces/Bangkok">https://www.tourismthailand.org/Destinations/Provinces/Bangkok</a></li>
+    <li>タクシー利用ガイド: <a href="https://www.tourismthailand.org/">https://www.tourismthailand.org/</a></li>
+  </ul>
+  <p>本誌制作：ワールドクラス・ツアーガイド(仮)<br>
+  ※掲載情報は2024年12月時点の参考例です。実際の訪問時は公式サイトや最新情報をご確認ください。</p>
+</section>
+
+<footer>
+  <p>© 2024 Bangkok Beyond The Classics</p>
+</footer>
+
+</body>
+</html>
